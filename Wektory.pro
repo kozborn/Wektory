@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        wektorygui.cpp
+        wektorygui.cpp \
+    punkt.cpp \
+    wektor.cpp
 
-HEADERS  += wektorygui.h
+HEADERS  += wektorygui.h \
+    punkt.h \
+    wektor.h
 
 FORMS    += wektorygui.ui
